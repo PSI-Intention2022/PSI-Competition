@@ -57,7 +57,28 @@ video_name: {
 
 
 ### (3) Driving Decision
+```python
+python evaluate_results.py
+```
+The evaluation ranking score is the average of mean-Accuracy of speed and direction predictions.
 
+Example driving decision ground-truth/prediction JSON format:
+```
+# Ground-truth
+video_name: {
+    frame_ID: {
+        speed: int, 
+        direction: int
+    }
+}
+# Intent Prediction
+video_name: {
+    frame_ID: {
+        speed_pred: int, 
+        direction_pred: int
+    }
+}
+```
 
 ## 2. Baselines
 
