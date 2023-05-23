@@ -21,11 +21,12 @@ The challenge has three tracks, including [Pedestrian Intent Prediction (PIP)](h
 
 ## 4. Prizes
 For each challenge track, there will be cash prizes for the top 3 winners as:
-|Prize| Number | Award | Total |
-|-|-|-|-|
-|First Prize| 1 | $2,000 | $2,000 |
-|Second Prize| 1 | $1,000 | $1,000 |
-|Third Prize| 1 | $500 | $500 |
+
+| Challenge Track | Gold | Silver | Bronze|
+| - | :- | :-: | :-: |
+|***Track 1 (Pedestrian Intent Prediction (PIP))***| $ 2,000 | $ 1,000 | $ 500 |
+|***Track 2 (Pedestrian Trajectory Prediction (PTP))***| $ 2,000 | $ 1,000 | $ 500 |
+|***Track 3 (Driver Decision Prediction (DDP))***| $ 2,000 | $ 1,000 | $ 500 |
 
 
 ## 5. Timeline
@@ -152,7 +153,7 @@ video_name: {
 
 
 ## 10. Questions & Contact
-If you have any questions, please contact (new Gmail)
+If you have any questions, please contact [psi.intent.benchmark@gmail.com](psi.intent.benchmark@gmail.com)
 
 ## 11. Organizers
 [Zhengming Ding](https://allanding.github.io), [Renran Tian](https://et.iupui.edu/people/rtian), [Taotao Jing](https://scottjingtt.github.io/about/), [Xin Hu](), [Zhengming Zhang]().
