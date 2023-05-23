@@ -96,7 +96,7 @@ TBD
 ### Submission Format
 ***Track 1 (Pedestrian Intent):*** Example intention ground-truth/prediction JSON format:
 ```
-# Ground-truth
+# Crossing Intent Ground-truth
 video_name: {
     pedestrian_ID: {
         frame_ID: {
@@ -117,7 +117,7 @@ video_name: {
 
 ***Track 2 (Pedestrian Trajectory):*** Example trajectory ground-truth/prediction JSON format:
 ```
-# Trajectory Prediction
+# Trajectory /Ground-truthPrediction
 video_name: {
     pedestrian_ID: {
         frame_ID: {
@@ -141,7 +141,7 @@ video_name: {
         direction: int
     }
 }
-# Intent Prediction
+# Driver Decision Prediction
 video_name: {
     frame_ID: {
         speed_pred: int, 
