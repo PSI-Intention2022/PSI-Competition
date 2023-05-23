@@ -1,4 +1,4 @@
-# PSI Pedestrian & Driver Behavior Estimation Challenge - [IEEE ITSC 2023](https://2023.ieee-itsc.org/)
+# Interpretable Pedestrian & Driver Behavior Estimation Challenge - [IEEE ITSC 2023](https://2023.ieee-itsc.org/)
 
 WE are hosting the Pedestrian & Driver Behavior Estimation Challenge based on the [Pedestrian Situated Intent (PSI) 2.0](ttps://github.com/PSI-Intention2022/PSI2) dataset. 
 
@@ -13,11 +13,11 @@ The challenge has three tracks, including [Pedestrian Intent Prediction (PIP)](h
 
 ## 3. Challenge Tracks
 
-***Track 1 (Pedestrian Intent): [Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/ITSC2023-PSI-PIP)***
+***Track 1 (Pedestrian Intent Prediction (PIP)):***
 
-***Track 2 (Pedestrian Trajectory): [Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/ITSC2023-PSI-PTP)***
+***Track 2 (Pedestrian Trajectory Prediction (PTP)):***
 
-***Track 3 (Driver Decision): [Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/ITSC2023-PSI-DDP)***
+***Track 3 (Driver Decision Prediction (DDP)):***
 
 ## 4. Prizes
 For each challenge track, there will be cash prizes for the top 3 winners as:
@@ -37,15 +37,22 @@ For each challenge track, there will be cash prizes for the top 3 winners as:
 
 
 ## 6. Dataset - PSI 2.0
+
+### Dataset Introduction
 [Pedestrian Situated Intent (PSI) 2.0](ttps://github.com/PSI-Intention2022/PSI2)
 
+### Dataset Splits
+The PSI 2.0 dataset is splitted into Train/Val/Test split as [./splits/PSI2_split.txt](./splits/PSI2_split.json).
+
 ## 7. Baselines 
+We provide baselines for all tracks of challenges as hints about using the PSI 2.0 dataset for a quick start. 
 
-***Track 1 (Pedestrian Intent)***
+***Track 1 ([Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/ITSC2023-PSI-PIP))***
 
-***Track 2 (Pedestrian Trajectory)***
+***Track 2 ([Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/ITSC2023-PSI-PTP))***
 
-***Track 3 (Driver Decision)***
+***Track 3 ([Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/ITSC2023-PSI-DDP))***
+
 
 
 ## 8.Evaluation
@@ -53,9 +60,9 @@ For each challenge track, there will be cash prizes for the top 3 winners as:
 ### Evaluation Metrics
 | Challenge Track | Reported Metrics | Ranking Rule | 
 | - | :- | :-: |
-|***Track 1 (Pedestrian Intent)***| F1, Recall, Precision | $F1$ |
-|***Track 2 (Pedestrian Trajectory)***| ADE@1.5s <br> FDE@1.5s | $ADE@1.5s$|
-|***Track 3 (Driver Decision)***| speed: F1, Recall, Precision <br> direction: F1, Recall, Precision | $\frac{(F1_{speed} + F1_{direction})}{2}$|
+|***Track 1 (Pedestrian Intent Prediction (PIP))***| F1, Recall, Precision | $F1$ |
+|***Track 2 (Pedestrian Trajectory Prediction (PTP))***| ADE@1.5s <br> FDE@1.5s | ADE@1.5s|
+|***Track 3 (Driver Decision Prediction (DDP))***| speed: F1, Recall, Precision <br> direction: F1, Recall, Precision | $\frac{(F1_{speed} + F1_{direction})}{2}$|
 
 ### Evaluation Scripts
 
@@ -135,11 +142,25 @@ video_name: {
 ```
 
 ### Evaluation Server
+TBD
 
 ### Submission Policy
+TBD
 
 ## 10. Questions & Contact
+If you have any questions, please contact ...
 
 ## 11. Organizers
+**Indiana University-Purdue University Indianapolis**
+
+**Tulane University**
 
 ## 12. Reference
+
+[1] Chen, Tina, Taotao Jing, Renran Tian, Yaobin Chen, Joshua Domeyer, Heishiro Toyoda, Rini Sherony, and Zhengming Ding. "Psi: A pedestrian behavior dataset for socially intelligent autonomous car." arXiv preprint arXiv:2112.02604 (2021).
+
+[2] Chen, Tina, Renran Tian, and Zhengming Ding. "Visual reasoning using graph convolutional networks for predicting pedestrian crossing intention." In Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 3103-3109. 2021.
+
+[3] Jing, Taotao, Haifeng Xia, Renran Tian, Haoran Ding, Xiao Luo, Joshua Domeyer, Rini Sherony, and Zhengming Ding. "InAction: Interpretable action decision making for autonomous driving." In Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022, Proceedings, Part XXXVIII, pp. 370-387. Cham: Springer Nature Switzerland, 2022.
+
+[4] Zhang, Zhengming, Renran Tian, and Zhengming Ding. "TrEP: Transformer-based Evidential Prediction for Pedestrian Intention with Uncertainty." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 36, no. 3, pp. 3589-3597. 2022.
