@@ -67,3 +67,4 @@ if __name__ == '__main__':
     test_gt_file = './val_driving_gt.json'
     test_pred_file = './val_driving_prediction.json'
     score = evaluate_driving(test_gt_file, test_pred_file, args)
+    print("Rankding score is : ", score)

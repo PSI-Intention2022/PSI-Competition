@@ -25,7 +25,8 @@ def evaluate_traj(groundtruth='', prediction='', args=None):
             val = traj_results[key][time]
             print(f'Eval/Results/{key}_{time}', val)
 
-    score = np.mean([traj_results['ADE'][t] for t in ['0.5', '1.0', '1.5']])
+    # score = np.mean([traj_results['ADE'][t] for t in ['0.5', '1.0', '1.5']])
+    score = traj_results['ADE']['1.5']
     return score
 
 def measure_traj_prediction(target, prediction, args):

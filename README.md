@@ -58,31 +58,40 @@ We provide baselines for all tracks of challenges as hints about using the PSI 2
 ## 8.Evaluation
 
 ### Evaluation Metrics
-| Challenge Track | Reported Metrics | Ranking Rule | 
-| - | :- | :-: |
-|***Track 1 (Pedestrian Intent Prediction (PIP))***| F1, Recall, Precision | $F1$ |
-|***Track 2 (Pedestrian Trajectory Prediction (PTP))***| ADE@1.5s <br> FDE@1.5s | ADE@1.5s|
-|***Track 3 (Driver Decision Prediction (DDP))***| speed: F1, Recall, Precision <br> direction: F1, Recall, Precision | $\frac{(F1_{speed} + F1_{direction})}{2}$|
+| Challenge Track | Reported Metrics | Ranking Metric | Ranking Rule|
+| - | :- | :-: | :-: |
+|***Track 1 (Pedestrian Intent Prediction (PIP))***| F1, Recall, Precision | $F1$ | $\uparrow$|
+|***Track 2 (Pedestrian Trajectory Prediction (PTP))***| ADE@1.5s <br> FDE@1.5s | ADE@1.5s| $\downarrow$|
+|***Track 3 (Driver Decision Prediction (DDP))***| speed: Acc, mAcc <br> direction: Acc, mAcc | $\frac{(mAcc_{speed} + mAcc_{direction})}{2}$| $\uparrow$|
 
 ### Evaluation Scripts
 
 ***Track 1 (Pedestrian Intent):*** The evaluation ranking score is the F1-score of intention binary prediction.
 ```python
-python ./evaluation_scripts/intention/evaluate_results.py
+cd ./evaluation_scripts/intention
+python evaluate_results.py
 ```
 
 ***Track 2 (Pedestrian Trajectory):*** The evaluation ranking score is the average ADE of predicted trajectory over the future ***1.5s*** time.
 ```python
-python ./evaluation_scripts/trajectory/evaluate_results.py
+cd ./evaluation_scripts/trajectory
+python evaluate_results.py
 ```
 
 ***Track 3 (Driver Decision):*** The evaluation ranking score is the average of mean-Accuracy of speed and direction predictions.
 ```python
-python ./evaluation_scripts/driving_decision/evaluate_results.py
+cd ./evaluation_scripts/driving_decision
+python evaluate_results.py
 ```
 
 
 ## 9. Submission
+
+### Submission Policy
+TBD
+
+### Evaluation Server
+TBD
 
 ### Submission Format
 ***Track 1 (Pedestrian Intent):*** Example intention ground-truth/prediction JSON format:
@@ -141,11 +150,6 @@ video_name: {
 }
 ```
 
-### Evaluation Server
-TBD
-
-### Submission Policy
-TBD
 
 ## 10. Questions & Contact
 If you have any questions, please contact ...
