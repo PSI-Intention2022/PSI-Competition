@@ -1,4 +1,4 @@
-# Interpretable Pedestrian & Driver Behavior Estimation Challenge - [IEEE ITSC 2023](https://2023.ieee-itsc.org/)
+# ITSS Student Competition in Pedestrian Behavior Prediction - [IEEE ITSC 2023](https://2023.ieee-itsc.org/)
 
 WE are hosting the Pedestrian & Driver Behavior Estimation Challenge based on the [Pedestrian Situated Intent (PSI) 2.0](ttps://github.com/PSI-Intention2022/PSI2) dataset. 
 
@@ -152,14 +152,16 @@ video_name: {
 
 
 ## 10. Questions & Contact
-If you have any questions, please contact ...
+If you have any questions, please contact (new Gmail)
 
 ## 11. Organizers
-**Indiana University-Purdue University Indianapolis**
+[Zhengming Ding](https://allanding.github.io), [Renran Tian](https://et.iupui.edu/people/rtian), [Taotao Jing](https://scottjingtt.github.io/about/), [Xin Hu](), [Zhengming Zhang]().
 
-**Tulane University**
+## 12. Sponsorship
 
-## 12. Reference
+IEEE ITSC 2023
+
+## 13. Reference
 
 [1] Chen, Tina, Taotao Jing, Renran Tian, Yaobin Chen, Joshua Domeyer, Heishiro Toyoda, Rini Sherony, and Zhengming Ding. "Psi: A pedestrian behavior dataset for socially intelligent autonomous car." arXiv preprint arXiv:2112.02604 (2021).
 
