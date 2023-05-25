@@ -66,6 +66,11 @@ if __name__ == '__main__':
     
     ROOT_PATH = os.getcwd()
     ################################
+    output_files_path = os.path.join(ROOT_PATH, "output")
+    if os.path.exists(output_files_path): # if it exist already
+        # reset the output directory
+        shutil.rmtree(output_files_path)
+    os.makedirs(output_files_path)
     # the scores for the leaderboard must be in a file named "scores.txt"
     # https://github.com/codalab/codalab-competitions/wiki/User_Building-a-Scoring-Program-for-a-Competition#directory-structure-for-submissions
     with open(os.path.join(ROOT_PATH, "output", 'scores.txt'), 'w') as score_file:
