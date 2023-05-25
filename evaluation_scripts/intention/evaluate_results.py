@@ -1,6 +1,7 @@
 import json
 from sklearn.metrics import mean_squared_error, confusion_matrix, classification_report, accuracy_score, f1_score
 import numpy as np
+import os
 
 def evaluate_intent(groundtruth='', prediction='', args=None):
     with open(groundtruth, 'r') as f:
@@ -62,4 +63,15 @@ if __name__ == '__main__':
     test_gt_file = './val_intent_gt.json'
     test_pred_file = './val_intent_prediction.json'
     score = evaluate_intent(test_gt_file, test_pred_file, args)
+    
+    ROOT_PATH = os.getcwd()
+    ################################
+    # the scores for the leaderboard must be in a file named "scores.txt"
+    # https://github.com/codalab/codalab-competitions/wiki/User_Building-a-Scoring-Program-for-a-Competition#directory-structure-for-submissions
+    with open(os.path.join(ROOT_PATH, "output", 'scores.txt'), 'w') as score_file:
+#         for key, ap in ap_dictionary.items():
+#             score_file.write("%s:%f\n"%(key, ap*100))
+#         score_file.write("mAP:%f\n"%(mAP*100))
+        score_file.write("F1:%f\n"%(score))
+    ################################
     print("Rankding score is : ", score)
