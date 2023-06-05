@@ -1,23 +1,29 @@
-# ITSS Student Competition in Pedestrian Behavior Prediction - [IEEE ITSC 2023](https://2023.ieee-itsc.org/)
+# IEEE ITSC Student Competition in Pedestrian Behavior Prediction - [IEEE ITSC 2023](https://2023.ieee-itsc.org/)
 
-WE are hosting the Pedestrian & Driver Behavior Estimation Challenge based on the [Pedestrian Situated Intent (PSI) 2.0](https://github.com/PSI-Intention2022/PSI-Dataset.git) dataset. 
+# WE are hosting the [IEEE ITSC Student Competition in Pedestrian & Driver Behavior Prediction](https://psi-intention2022.github.io). 
 
-The challenge has three tracks, including [Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/PSI-Intent-Prediction.git), [Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/PSI-Trajectory-Prediction.git), and [Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git), during pedestrian encounters. 
+The challenge has three tracks:
+- [Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/PSI-Intent-Prediction.git)
+- [Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/PSI-Trajectory-Prediction.git)
+- [Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git)
+
+The challenge is based on the [Pedestrian Situated Intent (PSI) 2.0](https://github.com/PSI-Intention2022/PSI-Dataset.git) dataset. 
 
 
-## 1. Participation
-(Information about platform ...)
+## 1. Overview
+Pedestrian behavior prediction is one of the most critical challenges for fully automated driving in urban settings, as it requires autonomous vehicles to interact safely and efficiently with pedestrians in diverse and dynamic environments. Accurate and robust pedestrian behavior prediction is crucial to ensure the safety of both pedestrians and the autonomous vehicles. 
 
-## 2. Overview
-(Introduction about the challenge ...)
+## 2. Challenge Tracks
 
-## 3. Challenge Tracks
+***Track 1 (Pedestrian Intent Prediction (PIP)):***  to predict the intention of a pedestrian crossing a street, such as whether they intend to cross or stop.
 
-***Track 1 (Pedestrian Intent Prediction (PIP)):***
+***Track 2 (Pedestrian Trajectory Prediction (PTP)):*** to predict the future trajectory of the pedestrian, given the pedestrian’s current position and intention.
 
-***Track 2 (Pedestrian Trajectory Prediction (PTP)):***
+***Track 3 (Driver Decision Prediction (DDP)):*** to predict the decision of the autonomous vehicle, given the pedestrian's intent and trajectory, to ensure safe and efficient interactions.
 
-***Track 3 (Driver Decision Prediction (DDP)):***
+## 3. Qualification
+We welcome competitors from all round the world. The leading attendee must be a student, graduate student or undergraduate student. Each team can join more than one track. Please check more details in the below website. 
+
 
 ## 4. Prizes
 For each challenge track, there will be cash prizes for the top 3 winners as:
@@ -133,16 +139,15 @@ video_name: {
 }
 ```
 
-
-## 10. Questions & Contact
-If you have any questions, please contact [psi.intent.benchmark@gmail.com](psi.intent.benchmark@gmail.com)
-
-## 11. Organizers
+## 10. Organizers
 [Zhengming Ding](https://allanding.github.io), [Renran Tian](https://et.iupui.edu/people/rtian), [Taotao Jing](https://scottjingtt.github.io/about/), [Xin Hu](), [Zhengming Zhang]().
 
-## 12. Sponsorship
+## 11. Sponsorship
 
 IEEE ITSC 2023
+
+## 12. Questions & Contact
+If you have any questions, please contact [psi.intent.benchmark@gmail.com](psi.intent.benchmark@gmail.com)
 
 ## 13. Reference
 
