@@ -46,8 +46,8 @@ For each challenge track, there will be cash prizes for the top 3 winners as:
 ## 6. Dataset - Pedestrian Situated Intent (PSI) 2.0 [[Homepage](http://pedestriandataset.situated-intent.net/)]
 
 - Prepare Dataset: Please follow [[Github](https://github.com/PSI-Intention2022/PSI-Dataset.git)] to prepare the PSI 2.0 dataset.
-  - Training set: ready
-  - Validation set: ready
+  - Training set: ready :white_check_mark: :smile:
+  - Validation set: ready :white_check_mark:
   - Test set: TBD
 
 - Data Splits: The PSI 2.0 dataset is splitted into Train/Val/Test split as [./splits/PSI2_split.txt](./splits/PSI2_split.json).
@@ -99,7 +99,7 @@ python evaluate_results.py
 TBD
 
 ### Winners Validation
-Winners would be required to provide their code and trained weights for valication process. More details about code submission will be updated. 
+Winners would be required to provide their code and trained weights for validation process. More details about code submission will be updated. 
 
 ### Submission Format
 ***Track 1 (Pedestrian Intent):*** Example intention ground-truth/prediction JSON format:
