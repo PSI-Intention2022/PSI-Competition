@@ -37,8 +37,8 @@ For each challenge track, there will be cash prizes for the top 3 winners as:
 
 ## 5. Timeline
 **Competition**: 
-- *Training*: June , 2023 - Aug., 2023
-- *Test submission*: Aug. 25th, 2023 - Aug. 31st, 2023 
+- *Training*: June , 2023 - August, 2023
+- *Test submission*: Aug. 31st, 2023 (TBD)
 
 **ITSC 2023 Conference**: Sep. 24th, 2023 - Sep. 28th, 2023
 
@@ -46,6 +46,9 @@ For each challenge track, there will be cash prizes for the top 3 winners as:
 ## 6. Dataset - Pedestrian Situated Intent (PSI) 2.0 [[Homepage](http://pedestriandataset.situated-intent.net/)]
 
 - Prepare Dataset: Please follow [[Github](https://github.com/PSI-Intention2022/PSI-Dataset.git)] to prepare the PSI 2.0 dataset.
+  - Training set: 
+  - Validation set: 
+  - Test set: TBD
 
 - Data Splits: The PSI 2.0 dataset is splitted into Train/Val/Test split as [./splits/PSI2_split.txt](./splits/PSI2_split.json).
 
@@ -95,8 +98,8 @@ python evaluate_results.py
 ### Submission Policy
 TBD
 
-### Evaluation Server
-TBD
+### Winners Validation
+Winners would be required to provide their code and trained weights for valication process. More details about code submission will be updated. 
 
 ### Submission Format
 ***Track 1 (Pedestrian Intent):*** Example intention ground-truth/prediction JSON format:
