@@ -17,8 +17,8 @@ def evaluate_driving(groundtruth='', prediction='', args=None):
 
     for vid in pred_driving.keys():
         for fid in pred_driving[vid].keys():
-            speed_pred.append(pred_driving[vid][fid]['speed_pred'])
-            dir_pred.append(pred_driving[vid][fid]['direction_pred'])
+            speed_pred.append(pred_driving[vid][fid]['speed'])
+            dir_pred.append(pred_driving[vid][fid]['direction'])
             gt_speed.append(gt_driving[vid][fid]['speed'])
             gt_dir.append(gt_driving[vid][fid]['direction'])
 
@@ -62,7 +62,6 @@ def measure_driving_prediction(gt_speed, gt_dir, speed_pred, dir_pred, args):
 
 if __name__ == '__main__':
     args = None
-
     # Evaluate driving decision prediction
     test_gt_file = './val_driving_gt.json'
     test_pred_file = './val_driving_prediction.json'

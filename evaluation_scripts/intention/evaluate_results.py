@@ -1,7 +1,6 @@
 import json
 from sklearn.metrics import mean_squared_error, confusion_matrix, classification_report, accuracy_score, f1_score
 import numpy as np
-import os
 
 def evaluate_intent(groundtruth='', prediction='', args=None):
     with open(groundtruth, 'r') as f:
@@ -16,7 +15,7 @@ def evaluate_intent(groundtruth='', prediction='', args=None):
         for pid in gt_intent[vid].keys():
             for fid in gt_intent[vid][pid].keys():
                 gt.append(gt_intent[vid][pid][fid]['intent'])
-                pred.append(pred_intent[vid][pid][fid]['intent_pred'])
+                pred.append(pred_intent[vid][pid][fid]['intent'])
     gt = np.array(gt)
     pred = np.array(pred)
     res = measure_intent_prediction(gt, pred, args)
@@ -57,26 +56,10 @@ def measure_intent_prediction(target, prediction, args):
     return results
 
 
+
 if __name__ == '__main__':
     args = None
-    # evaluate_intent('gt.json', 'pred.json', args)
     test_gt_file = './val_intent_gt.json'
     test_pred_file = './val_intent_prediction.json'
     score = evaluate_intent(test_gt_file, test_pred_file, args)
-    
-    ROOT_PATH = os.getcwd()
-    ################################
-    output_files_path = os.path.join(ROOT_PATH, "output")
-    if os.path.exists(output_files_path): # if it exist already
-        # reset the output directory
-        shutil.rmtree(output_files_path)
-    os.makedirs(output_files_path)
-    # the scores for the leaderboard must be in a file named "scores.txt"
-    # https://github.com/codalab/codalab-competitions/wiki/User_Building-a-Scoring-Program-for-a-Competition#directory-structure-for-submissions
-    with open(os.path.join(ROOT_PATH, "output", 'scores.txt'), 'w') as score_file:
-#         for key, ap in ap_dictionary.items():
-#             score_file.write("%s:%f\n"%(key, ap*100))
-#         score_file.write("mAP:%f\n"%(mAP*100))
-        score_file.write("F1:%f\n"%(score))
-    ################################
     print("Rankding score is : ", score)
