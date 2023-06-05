@@ -46,8 +46,8 @@ For each challenge track, there will be cash prizes for the top 3 winners as:
 ## 6. Dataset - Pedestrian Situated Intent (PSI) 2.0 [[Homepage](http://pedestriandataset.situated-intent.net/)]
 
 - Prepare Dataset: Please follow [[Github](https://github.com/PSI-Intention2022/PSI-Dataset.git)] to prepare the PSI 2.0 dataset.
-  - Training set: 
-  - Validation set: 
+  - Training set: ready
+  - Validation set: ready
   - Test set: TBD
 
 - Data Splits: The PSI 2.0 dataset is splitted into Train/Val/Test split as [./splits/PSI2_split.txt](./splits/PSI2_split.json).
