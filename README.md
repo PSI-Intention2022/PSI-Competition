@@ -69,7 +69,7 @@ We provide baselines for all tracks of challenges as hints about using the PSI 2
 | Challenge Track | Reported Metrics | Ranking Metric | Ranking Rule|
 | - | :- | :-: | :-: |
 |***Track 1 (Pedestrian Intent Prediction (PIP))***| F1, Recall, Precision | $F1$ | $\uparrow$|
-|***Track 2 (Pedestrian Trajectory Prediction (PTP))***| ADE@1.5s <br> FDE@1.5s | $\frac{(ADE@0.5s + ADE@1.0s + ADE@1.5s)}{3}$| $\downarrow$|
+|***Track 2 (Pedestrian Trajectory Prediction (PTP))***| ADE@1.5s <br> FDE@1.5s | $\frac{(ADE@0.5s+ADE@1.0s+ADE@1.5s)}{3}$| $\downarrow$|
 |***Track 3 (Driver Decision Prediction (DDP))***| speed: Acc, mAcc <br> direction: Acc, mAcc | $\frac{(mAcc_{speed} + mAcc_{direction})}{2}$| $\uparrow$|
 
 ### Evaluation Scripts
