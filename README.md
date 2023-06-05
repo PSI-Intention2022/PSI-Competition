@@ -1,6 +1,6 @@
-# IEEE ITSC Student Competition in Pedestrian Behavior Prediction - [IEEE ITSC 2023](https://2023.ieee-itsc.org/)
+# IEEE ITSS Student Competition in Pedestrian Behavior Prediction
 
-# WE are hosting the [IEEE ITSC Student Competition in Pedestrian & Driver Behavior Prediction](https://psi-intention2022.github.io). 
+# WE are hosting the [IEEE ITSS Student Competition in Pedestrian & Driver Behavior Prediction](https://psi-intention2022.github.io). 
 
 The challenge has three tracks:
 - [Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/PSI-Intent-Prediction.git)
