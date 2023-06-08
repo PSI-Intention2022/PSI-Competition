@@ -1,13 +1,13 @@
-# WE are hosting the [IEEE ITSS Student Competition in Pedestrian Behavior Prediction](https://psi-intention2022.github.io). 
+# WE are hosting the [IEEE ITSS Student Competition in Pedestrian Behavior Prediction](https://psi-intention2022.github.io) :trophy:. 
 
 ### :bookmark: News :
 - 20230606: The official [[Homepage](https://psi-intention2022.github.io)], [[GitHub](https://github.com/PSI-Intention2022/PSI-Competition)], and [[CodaLab]() ([Track 1](https://codalab.lisn.upsaclay.fr/competitions/13808#phases))([Track 2](https://codalab.lisn.upsaclay.fr/competitions/13812?secret_key=7a566b48-693d-47cf-9de8-d43e6b6fa512#phases))([Track 3](https://codalab.lisn.upsaclay.fr/competitions/13818?secret_key=bc6903e6-0a62-4df2-bb14-b31ae7b40a63#participate))] of the IEEE ITSS Student Competition are public. 
 
 ---
 The challenge has three tracks:
-- :dart:[Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/PSI-Intent-Prediction.git)
-- :dart:[Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/PSI-Trajectory-Prediction.git)
-- :dart:[Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git)
+- :dart: [Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/PSI-Intent-Prediction.git)
+- :dart: [Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/PSI-Trajectory-Prediction.git)
+- :dart: [Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git)
 
 The challenge is based on the [Pedestrian Situated Intent (PSI) 2.0](https://github.com/PSI-Intention2022/PSI-Dataset.git) dataset. 
 
@@ -67,7 +67,7 @@ We provide baselines for all tracks of challenges as hints about using the PSI 2
 
 
 
-## 8.Evaluation
+## 8.Evaluation :bellhop_bell:
 
 ### Evaluation Metrics
 | Challenge Track | Reported Metrics | Ranking Metric | Ranking |
@@ -100,7 +100,7 @@ python evaluate_results.py
 ## 9. Submission
 
 ### Submission Policy
-TBD
+Please participate the competition and submit results via CodaLab [[Track 1](https://codalab.lisn.upsaclay.fr/competitions/13808#phases)] [[Track 2](https://codalab.lisn.upsaclay.fr/competitions/13812?secret_key=7a566b48-693d-47cf-9de8-d43e6b6fa512#phases)] [[Track 3](https://codalab.lisn.upsaclay.fr/competitions/13818?secret_key=bc6903e6-0a62-4df2-bb14-b31ae7b40a63#participate)].
 
 ### Winners Validation
 Winners would be required to provide their code and trained weights for validation process. More details about code submission will be updated. 
@@ -147,17 +147,23 @@ video_name: {
 ```
 
 ## 10. Organizers
-[Zhengming Ding](https://allanding.github.io), [Renran Tian](https://et.iupui.edu/people/rtian), [Taotao Jing](https://scottjingtt.github.io/about/), [Xin Hu](), [Zhengming Zhang]().
+Faculty members: [Zhengming Ding](https://allanding.github.io), [Renran Tian](https://et.iupui.edu/people/rtian), [Yaobin Chen](http://et.engr.iupui.edu/~ychen/?_gl=1*15o01ly*_ga*MjA3NjEwMjYyNC4xNjg2MTk5MDAy*_ga_61CH0D2DQW*MTY4NjE5OTAwMS4xLjAuMTY4NjE5OTAwMS42MC4wLjA.)
 
-## 11. Sponsorship
+Student members: [Taotao Jing](https://scottjingtt.github.io/about/), [Xin Hu](), [Zhengming Zhang]()
+
+## 11. Advisory Committee: 
+
+(Coming soon ...)
+
+## 12. Sponsorship
 
 - IEEE Intelligent Transportation Systems Society
 - Technical Committee on Human-Centered AI in Transportation (HAIT)
 
-## 12. Questions & Contact
+## 13. Questions & Contact
 If you have any questions, please contact [psi.intent.benchmark@gmail.com](psi.intent.benchmark@gmail.com)
 
-## 13. Reference
+## 14. Reference
 
 [1] Chen, Tina, Taotao Jing, Renran Tian, Yaobin Chen, Joshua Domeyer, Heishiro Toyoda, Rini Sherony, and Zhengming Ding. "Psi: A pedestrian behavior dataset for socially intelligent autonomous car." arXiv preprint arXiv:2112.02604 (2021).
 
