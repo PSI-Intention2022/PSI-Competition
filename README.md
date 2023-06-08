@@ -63,7 +63,7 @@ We provide baselines for all tracks of challenges as hints about using the PSI 2
 
 ***Track 2 ([Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/PSI-Trajectory-Prediction.git))***: after observing 15 frames (0.5 seconds), predit the trajectory of the target pedestrian in the following 0.5s, 1.0s, and 1.5s (15/30/45 frames).
 
-***Track 3 ([Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git))***: after observing 15 frames (0.5 seconds), predict the driving decision (TWO output - **Speed:** ['increaseSpeed', 'decreaseSpeed', 'maintainSpeed'], **Direction:** ['goStraight', 'turnLeft', 'turnRight']) made by the driver in the vechile.
+***Track 3 ([Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git))***: after observing 15 frames (0.5 seconds), predict the driving decision made by the driver (TWO output - **Speed:** ['increaseSpeed', 'decreaseSpeed', 'maintainSpeed'], **Direction:** ['goStraight', 'turnLeft', 'turnRight']).
 
 
 
