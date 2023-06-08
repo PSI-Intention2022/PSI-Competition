@@ -43,9 +43,9 @@ For each challenge track, there will be cash prizes for the top 3 winners as:
 **ITSC 2023 Conference**: Sep. 24th, 2023 - Sep. 28th, 2023
 
 
-## 6. Dataset - Pedestrian Situated Intent (PSI) 2.0 [[Homepage](http://pedestriandataset.situated-intent.net/)]
+## 6. Dataset - Pedestrian Situated Intent (PSI) 2.0
 
-- Prepare Dataset: Please follow [[Github](https://github.com/PSI-Intention2022/PSI-Dataset.git)] to prepare the PSI 2.0 dataset.
+- Download and Prepare Dataset: Please follow [[Github](https://github.com/PSI-Intention2022/PSI-Dataset.git)] to prepare the PSI 2.0 dataset.
   - Training set: ready :white_check_mark: :smile:
   - Validation set: ready :white_check_mark:
   - Test set: TBD
