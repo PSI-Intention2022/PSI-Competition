@@ -59,11 +59,11 @@ For each challenge track, there will be cash prizes for the top 3 winners as:
 ## 7. Baselines 
 We provide baselines for all tracks of challenges as hints about using the PSI 2.0 dataset for a quick start. 
 
-***Track 1 ([Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/PSI-Intent-Prediction.git))***
+***Track 1 ([Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/PSI-Intent-Prediction.git))***: after oberving 15 frames (0.5 seconds), predict intent (**Not cross V.S. Cross**) of the target pedestrian crossing the road in front of the moving vehicle.
 
-***Track 2 ([Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/PSI-Trajectory-Prediction.git))***
+***Track 2 ([Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/PSI-Trajectory-Prediction.git))***: after observing 15 frames (0.5 seconds), predit the trajectory of the target pedestrian in the following 0.5s, 1.0s, and 1.5s (15/30/45 frames).
 
-***Track 3 ([Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git))***
+***Track 3 ([Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git))***: after observing 15 frames (0.5 seconds), predict the driving decision (TWO output - **Speed:** ['increaseSpeed', 'decreaseSpeed', 'maintainSpeed'], **Direction:** ['goStraight', 'turnLeft', 'turnRight']) made by the driver in the vechile.
 
 
 
