@@ -37,18 +37,20 @@ For each challenge track, there will be cash prizes for the top 3 winners as:
 
 ## 5. Timeline
 **Competition**: 
-- *Training*: June , 2023 - August, 2023
-- *Test submission*: Aug. 31st, 2023 (TBD)
+- [Preparing Date]: until 23:59 GMT, August 30, 2023 
+- [Final Competition Date]: 00:00 - 23:59 GMT, August 31, 2023 
+- [Results Releasing Date]: 23:59 GMT, Sept 8, 2023 
+- [ITSC 2023 Workshop Time]: Sep. 24 - 28, 2023, Bilbao, Spain
 
-**ITSC 2023 Conference**: Sep. 24th, 2023 - Sep. 28th, 2023
+***The winners are required to attend our ITSC Workshop remotely or in person.***
 
 
 ## 6. Dataset - Pedestrian Situated Intent (PSI) 2.0
 
 - Download and Prepare Dataset: Please follow [[Github](https://github.com/PSI-Intention2022/PSI-Dataset.git)] to prepare the PSI 2.0 dataset.
   - Training set: ready :white_check_mark: :smile:
-  - Validation set: ready :white_check_mark:
-  - Test set: TBD
+  - Validation set: ready :white_check_mark: :smile:
+  - Test set: (coming soon)
 
 - Data Splits: The PSI 2.0 dataset is splitted into Train/Val/Test split as [./splits/PSI2_split.txt](./splits/PSI2_split.json).
 
@@ -66,7 +68,7 @@ We provide baselines for all tracks of challenges as hints about using the PSI 2
 ## 8.Evaluation
 
 ### Evaluation Metrics
-| Challenge Track | Reported Metrics | Ranking Metric | Ranking Rule|
+| Challenge Track | Reported Metrics | Ranking Metric | Ranking |
 | - | :- | :-: | :-: |
 |***Track 1 (Pedestrian Intent Prediction (PIP))***| F1, Recall, Precision | $F1$ | $\uparrow$|
 |***Track 2 (Pedestrian Trajectory Prediction (PTP))***| ADE@1.5s <br> FDE@1.5s | $\frac{(ADE_{0.5s}+ADE_{1.0s}+ADE_{1.5s})}{3}$| $\downarrow$|
@@ -147,7 +149,8 @@ video_name: {
 
 ## 11. Sponsorship
 
-IEEE ITSS
+- IEEE Intelligent Transportation Systems Society
+- Technical Committee on Human-Centered AI in Transportation (HAIT)
 
 ## 12. Questions & Contact
 If you have any questions, please contact [psi.intent.benchmark@gmail.com](psi.intent.benchmark@gmail.com)
