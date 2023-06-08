@@ -147,7 +147,7 @@ video_name: {
 
 ## 11. Sponsorship
 
-IEEE ITSC 2023
+IEEE ITSS
 
 ## 12. Questions & Contact
 If you have any questions, please contact [psi.intent.benchmark@gmail.com](psi.intent.benchmark@gmail.com)
