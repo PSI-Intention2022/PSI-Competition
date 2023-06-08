@@ -1,13 +1,13 @@
 # WE are hosting the [IEEE ITSS Student Competition in Pedestrian Behavior Prediction](https://psi-intention2022.github.io). 
 
-### News:
+### :bookmark: News :
 - 20230606: The official [[Homepage](https://psi-intention2022.github.io)], [[GitHub](https://github.com/PSI-Intention2022/PSI-Competition)], and [[CodaLab]() ([Track 1](https://codalab.lisn.upsaclay.fr/competitions/13808#phases))([Track 2](https://codalab.lisn.upsaclay.fr/competitions/13812?secret_key=7a566b48-693d-47cf-9de8-d43e6b6fa512#phases))([Track 3](https://codalab.lisn.upsaclay.fr/competitions/13818?secret_key=bc6903e6-0a62-4df2-bb14-b31ae7b40a63#participate))] of the IEEE ITSS Student Competition are public. 
 
 ---
 The challenge has three tracks:
-- [Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/PSI-Intent-Prediction.git)
-- [Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/PSI-Trajectory-Prediction.git)
-- [Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git)
+- :dart:[Pedestrian Intent Prediction (PIP)](https://github.com/PSI-Intention2022/PSI-Intent-Prediction.git)
+- :dart:[Pedestrian Trajectory Prediction (PTP)](https://github.com/PSI-Intention2022/PSI-Trajectory-Prediction.git)
+- :dart:[Driver Decision Prediction (DDP)](https://github.com/PSI-Intention2022/PSI-DriverDecision-Prediction.git)
 
 The challenge is based on the [Pedestrian Situated Intent (PSI) 2.0](https://github.com/PSI-Intention2022/PSI-Dataset.git) dataset. 
 
@@ -17,30 +17,30 @@ Pedestrian behavior prediction is one of the most critical challenges for fully 
 
 ## 2. Challenge Tracks
 
-***Track 1 (Pedestrian Intent Prediction (PIP)):***  to predict the intention of a pedestrian crossing a street, such as whether they intend to cross or stop.
+:dart:***Track 1 (Pedestrian Intent Prediction (PIP)):***  to predict the intention of a pedestrian crossing a street, such as whether they intend to cross or stop.
 
-***Track 2 (Pedestrian Trajectory Prediction (PTP)):*** to predict the future trajectory of the pedestrian, given the pedestrian’s current position and intention.
+:dart:***Track 2 (Pedestrian Trajectory Prediction (PTP)):*** to predict the future trajectory of the pedestrian, given the pedestrian’s current position and intention.
 
-***Track 3 (Driver Decision Prediction (DDP)):*** to predict the decision of the autonomous vehicle, given the pedestrian's intent and trajectory, to ensure safe and efficient interactions.
+:dart:***Track 3 (Driver Decision Prediction (DDP)):*** to predict the decision of the autonomous vehicle, given the pedestrian's intent and trajectory, to ensure safe and efficient interactions.
 
 ## 3. Qualification
 We welcome competitors from all round the world. The leading attendee must be a student, graduate student or undergraduate student. Each team can join more than one track. Please check more details in the below website. 
 
 
-## 4. Prizes
+## 4. Prizes :trophy:
 For each challenge track, there will be cash prizes for the top 3 winners as:
 
-| Challenge Track | Gold | Silver | Bronze|
+| Challenge Track | Gold :1st_place_medal: | Silver :2nd_place_medal: | Bronze :3rd_place_medal: |
 | - | :- | :-: | :-: |
 |***Track 1 (Pedestrian Intent Prediction (PIP))***| $ 2,000 | $ 1,000 | $ 500 |
 |***Track 2 (Pedestrian Trajectory Prediction (PTP))***| $ 2,000 | $ 1,000 | $ 500 |
 |***Track 3 (Driver Decision Prediction (DDP))***| $ 2,000 | $ 1,000 | $ 500 |
 
 
-## 5. Timeline
+## 5. Timeline :hourglass_flowing_sand:
 **Competition**: 
 - [Preparing Date]: until 23:59 GMT, August 30, 2023 
-- [Final Competition Date]: 00:00 - 23:59 GMT, August 31, 2023 
+- ***[Final Competition Date]: 00:00 - 23:59 GMT, August 31, 2023***
 - [Results Releasing Date]: 23:59 GMT, Sept 8, 2023 
 - [ITSC 2023 Workshop Time]: Sep. 24 - 28, 2023, Bilbao, Spain
 
