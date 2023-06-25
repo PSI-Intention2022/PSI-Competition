@@ -12,6 +12,7 @@ The challenge has three tracks:
 
 The challenge is based on the [Pedestrian Situated Intent (PSI) 2.0](https://github.com/PSI-Intention2022/PSI-Dataset.git) dataset. 
 
+![image](images/dataset_multimodal.jpg)
 
 ## 1. Overview
 Pedestrian behavior prediction poses a significant challenge for fully automated driving in urban environments, as it necessitates safe and efficient interaction between autonomous vehicles and pedestrians within dynamic and diverse surroundings. Ensuring the safety of pedestrians and autonomous vehicles alike relies heavily on accurate and reliable pedestrian behavior prediction.
