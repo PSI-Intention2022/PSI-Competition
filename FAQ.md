@@ -64,6 +64,12 @@ The remaining is the coordinates of the bounding box.
 
 **Reply:** No, in the test data, only the CV annotations will be provided alongside the videos (clips). Cognitive annotations, which are closely linked to intent estimation, are intentionally excluded from the test data to avoid information leakage. This is because some sentences in the cognitive annotations explicitly include the intent, which could compromise the integrity of the evaluation. Additionally, in real-world applications, providing language descriptions at the initial stage is not practical. However, generating or predicting language descriptions based on visual input shows promise as a strategy.
 
+---
+
+*[Q9]: what is the meaning of "groudID" attribute inside '*objType*_track_*trackId*' in the CV annotations?*
+
+**Reply:** We apologize for any confusion or inconvenience caused by this oversight. Regarding your question about the attribute "groupID," it was used solely for the purpose of collecting and organizing raw annotations for intent estimation. Consequently, the "groupID" attribute does not hold any relevance or provide any further information for the competition data processing or any specific tasks. Therefore, you can safely disregard any remaining "groupID" attributes present in the CV annotation files.
+
 
 ---
 ---
