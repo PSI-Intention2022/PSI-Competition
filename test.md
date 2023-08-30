@@ -1,5 +1,7 @@
 # Guidance of Using Test Data for Evaluation
 
+### Please download the data from https://drive.google.com/drive/folders/1vnRFzeMftAabUD7gqRn9PS8Ql_sVKO9-?usp=sharing
+
 ## 1. Test Data Information
 For all three tasks, the test data contains **videos, CV annotations, and generated database**.
 - **Videos**: There are 50 new videos released for test purpose.
