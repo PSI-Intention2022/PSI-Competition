@@ -41,8 +41,7 @@ For each challenge track, cash prizes will be awarded to the top three winners a
 ## 5. Timeline :hourglass_flowing_sand:
 **Competition**: 
 - [Preparing Date]: until 23:59 GMT, August 30, 2023 
-- ***[Final Competition Date]: 00:00 - 23:59 GMT, August 31, 2023***
-- [Results Releasing Date]: 23:59 GMT, Sept 8, 2023 
+- ***[Final Competition Date]: 00:00 - 23:59 UTC, August 30, 2023***
 - [ITSC 2023 Workshop Time]: Sep. 24 - 28, 2023, Bilbao, Spain
 
 ***The winners are required to attend our ITSC Workshop either remotely or in person.***
@@ -74,7 +73,7 @@ To facilitate a quick start, we offer baselines for all challenge tracks, which 
 | Challenge Track | Reported Metrics | Ranking Metric | Ranking |
 | - | :- | :-: | :-: |
 |***Track 1 (Pedestrian Intent Prediction (PIP))***| F1, Recall, Precision | $F1$ | $\uparrow$|
-|***Track 2 (Pedestrian Trajectory Prediction (PTP))***| ADE@1.5s <br> FDE@1.5s | $\frac{(ADE_{0.5s}+ADE_{1.0s}+ADE_{1.5s})}{3}$| $\downarrow$|
+|***Track 2 (Pedestrian Trajectory Prediction (PTP))***| ADE <br> FDE | $\frac{(ADE_{0.5s}+ADE_{1.0s}+ADE_{1.5s})}{3}$| $\downarrow$|
 |***Track 3 (Driver Decision Prediction (DDP))***| speed: Acc, mAcc <br> direction: Acc, mAcc | $\frac{(mAcc_{speed} + mAcc_{direction})}{2}$| $\uparrow$|
 
 ### Evaluation Scripts
