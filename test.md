@@ -24,7 +24,7 @@ If you follow the pipeline and structure of the provided baselines, using the te
 5. Double check and modify the data path in the code and evaluate the results. Then use the script ```prepare_data.py``` in the ```data``` folder to generate the dataloader, which is the same as the baseline training and validation processes.
 
 
-## 3. IMPORTANT!!!: You SHOULD NOT use the test data for training or finetune the model.
+## 3. IMPORTANT!!!: You SHOULD NOT use the test data to train or finetune the model.
 We understand that certain annotations in the test data might inadvertently reveal information about other cases. Nevertheless, we have faith in our participants' commitment to adhering to the rules and refraining from using the test data for model training or fine-tuning. Our team will rigorously inspect the submitted code and model to ensure that the test data has not been utilized in any way during these processes.
 
 To maintain the integrity of the competition and prevent any potential breaches, we will request all participants to provide their "code + training pipeline + trained weights." This information will undergo validation and result reproduction to minimize the risk of any unethical practices.
