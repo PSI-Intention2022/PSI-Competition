@@ -21,4 +21,4 @@ If you follow the pipeline and structure of the provided baselines, using the te
     python split_clips_to_frames.py *ROOT_PATH*
 ```
 4. Move the provided database file into the *database* folder as the validation and train database in the baseline. (It is noteworthy that you may not be able to generate the database for the test data for yourself since the cognitive annotations of the pedestrians intent are not provided.)
-5. Double check and modify the data path in the code and evaluate the results. 
+5. Double check and modify the data path in the code and evaluate the results. Then use the script ```prepare_data.py``` in the ```data``` folder to generate the dataloader, which is the same as the baseline training and validation processes.
