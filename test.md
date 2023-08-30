@@ -22,3 +22,11 @@ If you follow the pipeline and structure of the provided baselines, using the te
 ```
 4. Move the provided database file into the *database* folder as the validation and train database in the baseline. (It is noteworthy that you may not be able to generate the database for the test data for yourself since the cognitive annotations of the pedestrians intent are not provided.)
 5. Double check and modify the data path in the code and evaluate the results. Then use the script ```prepare_data.py``` in the ```data``` folder to generate the dataloader, which is the same as the baseline training and validation processes.
+
+
+## 3. IMPORTANT!!!: You SHOULD NOT use the test data for training or finetune the model.
+We understand that certain annotations in the test data might inadvertently reveal information about other cases. Nevertheless, we have faith in our participants' commitment to adhering to the rules and refraining from using the test data for model training or fine-tuning. Our team will rigorously inspect the submitted code and model to ensure that the test data has not been utilized in any way during these processes.
+
+To maintain the integrity of the competition and prevent any potential breaches, we will request all participants to provide their "code + training pipeline + trained weights." This information will undergo validation and result reproduction to minimize the risk of any unethical practices.
+
+In the event of any rule violations, the implicated team will be disqualified from the competition.
