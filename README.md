@@ -1,6 +1,7 @@
 # WE are hosting the [IEEE ITSS Student Competition in Pedestrian Behavior Prediction](https://psi-intention2022.github.io) :trophy:. 
 
 ### :bookmark: News :
+- 20230830: Test data are released and a brief guidance is provided in [[Test Guidance](./test.md)].
 - 20230624: Frequently asked questions are collected as [[FAQ](./FAQ.md)].
 - 20230606: The official [[Homepage](https://psi-intention2022.github.io)], [[GitHub](https://github.com/PSI-Intention2022/PSI-Competition)], and [[CodaLab](https://codalab.lisn.upsaclay.fr/competitions/13808)] ([Track 1](https://codalab.lisn.upsaclay.fr/competitions/13808#phases), [Track 2](https://codalab.lisn.upsaclay.fr/competitions/13812?secret_key=7a566b48-693d-47cf-9de8-d43e6b6fa512#phases), and [Track 3](https://codalab.lisn.upsaclay.fr/competitions/13818?secret_key=bc6903e6-0a62-4df2-bb14-b31ae7b40a63#participate)) of the IEEE ITSS Student Competition are public.
 ---
