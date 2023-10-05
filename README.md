@@ -1,7 +1,7 @@
 # WE are hosting the [IEEE ITSS Student Competition in Pedestrian Behavior Prediction](https://psi-intention2022.github.io) :trophy:. 
 
 ### :bookmark: News :
-- 20230910: All PSI data including videos, CV annotations, and Cognitive Annotation (PSI1.0 & PSI 2.0) are public for download and future exploration! [[Google Drive](https://drive.google.com/drive/folders/1w_psSDwB_z7alJO5uCQ8d28NiOjRMK-g?usp=sharing)] :sparkler::zap:
+- 20230910: All PSI data including videos, CV annotations, and Cognitive Annotation (PSI1.0 & PSI 2.0) are public for download and future exploration! ~~[[Google Drive]()]~~ [[PSI Homepage](http://pedestriandataset.situated-intent.net)] :sparkler::zap:
 - 20230830: Test data are released and a brief guidance is provided in [[Test Guidance](./test.md)].
 - 20230624: Frequently asked questions are collected as [[FAQ](./FAQ.md)].
 - 20230606: The official [[Homepage](https://psi-intention2022.github.io)], [[GitHub](https://github.com/PSI-Intention2022/PSI-Competition)], and [[CodaLab](https://codalab.lisn.upsaclay.fr/competitions/13808)] ([Track 1](https://codalab.lisn.upsaclay.fr/competitions/13808#phases), [Track 2](https://codalab.lisn.upsaclay.fr/competitions/13812?secret_key=7a566b48-693d-47cf-9de8-d43e6b6fa512#phases), and [Track 3](https://codalab.lisn.upsaclay.fr/competitions/13818?secret_key=bc6903e6-0a62-4df2-bb14-b31ae7b40a63#participate)) of the IEEE ITSS Student Competition are public.
@@ -54,7 +54,7 @@ For each challenge track, cash prizes will be awarded to the top three winners a
 - Download and Prepare Dataset: Please follow [[Github](https://github.com/PSI-Intention2022/PSI-Dataset.git)] to prepare the PSI 2.0 dataset.
   - Training set: ready :white_check_mark: :smile:
   - Validation set: ready :white_check_mark: :smile:
-  - Test set: (coming soon)
+  - Test set: ready :white_check_mark: :smile:
 
 - Data Splits: The PSI 2.0 dataset is splitted into Train/Val/Test split as [./splits/PSI2_split.txt](./splits/PSI2_split.json).
 
@@ -153,19 +153,19 @@ Faculty members: [Zhengming Ding](https://allanding.github.io), [Renran Tian](ht
 
 Student members: [Taotao Jing](https://scottjingtt.github.io/about/), [Xin Hu](), [Zhengming Zhang]()
 
-## 11. Advisory Committee: 
+<!-- ## 11. Advisory Committee: 
 
-(Coming soon ...)
+(Coming soon ...) -->
 
-## 12. Sponsorship
+## 11. Sponsorship
 
 - IEEE Intelligent Transportation Systems Society
 - Technical Committee on Human-Centered AI in Transportation (HAIT)
 
-## 13. Questions & Contact
+## 12. Questions & Contact
 If you have any questions, please refer to the [FAQ](./FAQ.md) page, or feel free to contact [psi.intent.benchmark@gmail.com](psi.intent.benchmark@gmail.com)
 
-## 14. Reference
+## 13. Reference
 
 [1] Chen, Tina, Taotao Jing, Renran Tian, Yaobin Chen, Joshua Domeyer, Heishiro Toyoda, Rini Sherony, and Zhengming Ding. "Psi: A pedestrian behavior dataset for socially intelligent autonomous car." arXiv preprint arXiv:2112.02604 (2021).
 
